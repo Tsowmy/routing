@@ -5,7 +5,7 @@ import { BrowserRouter,Routes,Route }from "react-router-dom"
 import Contact from "./Contact.js"
 import Login from "./Login.js"
 import About from "./About.js"
-import Logout from "./Logout.js"
+import Logged from "./Logged.js"
 
 
 
@@ -22,7 +22,7 @@ function App() {
           <Route path="/about"element={<About/>}/>
           <Route path="/contact"element={<Contact/>}/>
           <Route path="/login"element={<Login/>}/>
-          <Route path ="/logout"element={<Logout/>}/>
+          <Route path ="/logged"element={<Logged/>}/>
          </Routes>
          </div>
       </BrowserRouter>
