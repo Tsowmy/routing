@@ -1,3 +1,9 @@
+.bg-container{
+  background-color: aqua;
+}
+.body{
+  color:green
+}
 .App {
   text-align: center;
 }

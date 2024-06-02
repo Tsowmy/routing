@@ -1,6 +1,6 @@
-function About(){
+function Logged (){
     return(
-        <h1>This is about component</h1>
+        <h1>This is about Logged</h1>
     )
 }
-export default About
+export default Logged
